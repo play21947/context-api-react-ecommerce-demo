@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 20px;
+  height: 80px;
+  color: white;
+}
+
+
+.product{
+  width: 200px;
+  height: 80px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.each{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.cart-flex{
+  display: flex;
+  justify-content: space-between;
+  row-gap: 30px;
+  column-count: 20px;
+}
+
+.cart{
+  padding: 20px;
 }
